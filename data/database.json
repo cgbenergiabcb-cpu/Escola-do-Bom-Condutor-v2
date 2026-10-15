@@ -1,0 +1,748 @@
+{
+  "colaboradores": [
+    {
+      "id": "colab-001",
+      "matricula": "10482",
+      "nome": "FRANCISCO ANTÔNIO DA SILVA",
+      "nomeNormalizado": "francisco antonio da silva",
+      "base": "Base Bacabal",
+      "funcao": "Eletricista de Distribuição",
+      "gerencia": "Gerência de Operações Centro",
+      "tipoVeiculo": "Carro/Caminhonete",
+      "statusGeral": "Aguardando prova teórica",
+      "statusTeorico": "Pendente",
+      "tentativasTeoricasCount": 0,
+      "statusPratico": "Não iniciado",
+      "convocadoEm": "2026-10-01T08:00:00Z",
+      "atualizadoEm": "2026-10-01T08:00:00Z",
+      "observacoes": "Ocorrência de colisão lateral leve em manobra de retorno."
+    },
+    {
+      "id": "colab-002",
+      "matricula": "10915",
+      "nome": "FRANCISCO JOSÉ PEREIRA",
+      "nomeNormalizado": "francisco jose pereira",
+      "base": "Base Santa Inês",
+      "funcao": "Técnico de Manutenção de Linhas",
+      "gerencia": "Gerência Regional Oeste",
+      "tipoVeiculo": "Carro/Caminhonete",
+      "statusGeral": "Aguardando prova teórica",
+      "statusTeorico": "Pendente",
+      "tentativasTeoricasCount": 0,
+      "statusPratico": "Não iniciado",
+      "convocadoEm": "2026-10-02T09:30:00Z",
+      "atualizadoEm": "2026-10-02T09:30:00Z",
+      "observacoes": "Abalroamento em cruzamento semafórico."
+    },
+    {
+      "id": "colab-003",
+      "matricula": "11340",
+      "nome": "FRANCISCO CARLOS SOUZA",
+      "nomeNormalizado": "francisco carlos souza",
+      "base": "Base Pedreiras",
+      "funcao": "Inspetor de Serviços Comerciais",
+      "gerencia": "Gerência de Atendimento e Clientes",
+      "tipoVeiculo": "Motocicleta",
+      "statusGeral": "Aguardando prova teórica",
+      "statusTeorico": "Pendente",
+      "tentativasTeoricasCount": 0,
+      "statusPratico": "Não iniciado",
+      "convocadoEm": "2026-10-03T11:00:00Z",
+      "atualizadoEm": "2026-10-03T11:00:00Z",
+      "observacoes": "Queda de moto em pista escorregadia com chuva fina."
+    },
+    {
+      "id": "colab-004",
+      "matricula": "12109",
+      "nome": "MARIA APARECIDA DOS SANTOS",
+      "nomeNormalizado": "maria aparecida dos santos",
+      "base": "Base São Luís",
+      "funcao": "Supervisora de Campo",
+      "gerencia": "Gerência de Operações Metropolitana",
+      "tipoVeiculo": "Carro/Caminhonete",
+      "statusGeral": "Aprovado na prova teórica",
+      "statusTeorico": "Aprovado",
+      "notaTeorica": 93.3,
+      "tentativasTeoricasCount": 1,
+      "statusPratico": "Aguardando avaliação prática",
+      "convocadoEm": "2026-09-25T14:00:00Z",
+      "atualizadoEm": "2026-10-10T16:20:00Z",
+      "observacoes": "Reavaliação periódica por ocorrência em rotatória."
+    },
+    {
+      "id": "colab-005",
+      "matricula": "13554",
+      "nome": "JOÃO BATISTA DE OLIVEIRA",
+      "nomeNormalizado": "joao batista de oliveira",
+      "base": "Base Imperatriz",
+      "funcao": "Operador de Guindauto",
+      "gerencia": "Gerência Regional Sul",
+      "tipoVeiculo": "Carro/Caminhonete",
+      "statusGeral": "Processo concluído com aprovação",
+      "statusTeorico": "Aprovado",
+      "notaTeorica": 86.7,
+      "tentativasTeoricasCount": 1,
+      "statusPratico": "Aprovado",
+      "notaPratica": 91.7,
+      "instrutorPraticoId": "inst-03",
+      "instrutorPraticoNome": "Renata Albuquerque",
+      "convocadoEm": "2026-09-18T08:00:00Z",
+      "atualizadoEm": "2026-10-08T17:00:00Z",
+      "observacoes": "Processo concluído. Certificado emitido."
+    },
+    {
+      "id": "colab-006",
+      "matricula": "14210",
+      "nome": "LUCAS GABRIEL COSTA",
+      "nomeNormalizado": "lucas gabriel costa",
+      "base": "Base Caxias",
+      "funcao": "Leiturista / Fiscal de Medição",
+      "gerencia": "Gerência Comercial Leste",
+      "tipoVeiculo": "Motocicleta",
+      "statusGeral": "Aguardando prova teórica",
+      "statusTeorico": "Pendente",
+      "tentativasTeoricasCount": 0,
+      "statusPratico": "Não iniciado",
+      "convocadoEm": "2026-10-05T10:00:00Z",
+      "atualizadoEm": "2026-10-05T10:00:00Z",
+      "observacoes": "Desvio de animal na via resultando em queda no acostamento."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "q-car-01",
+      "codigo": "CAR-001",
+      "categoriaVeiculo": "Carro/Caminhonete",
+      "tema": "Direção Defensiva / Aquaplanagem",
+      "enunciado": "Ao trafegar em rodovia durante chuva intensa, o condutor sente que a direção do veículo ficou repentinamente leve e que os pneus perderam aderência com o solo (aquaplanagem). Qual é o procedimento defensivo correto?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Pisar bruscamente no pedal de freio e puxar o freio de mão imediatamente."
+        },
+        {
+          "letra": "B",
+          "texto": "Desacelerar suavemente tirando o pé do acelerador, manter o volante firme em linha reta e não frear bruscamente."
+        },
+        {
+          "letra": "C",
+          "texto": "Virar rapidamente o volante para a esquerda e para a direita até recuperar o atrito."
+        },
+        {
+          "letra": "D",
+          "texto": "Acelerar para que a força centrífuga das rodas expulse a lâmina de água acumulada."
+        },
+        {
+          "letra": "E",
+          "texto": "Engrenar marcha ré com o veículo em movimento para desacelerar o eixo motriz."
+        }
+      ],
+      "respostaCorreta": "B",
+      "explicacao": "Na aquaplanagem, qualquer freada brusca ou movimento repentino no volante pode causar derrapagem descontrolada e capotamento. O correto é retirar o pé do acelerador e manter a direção reta.",
+      "status": "ativo",
+      "versao": 1,
+      "incompletaAlternativas": false,
+      "atualizadoEm": "2026-10-15T08:00:00Z"
+    },
+    {
+      "id": "q-car-02",
+      "codigo": "CAR-002",
+      "categoriaVeiculo": "Carro/Caminhonete",
+      "tema": "Direção Defensiva / Distância de Seguimento",
+      "enunciado": "Para manter uma distância de segurança adequada em relação ao veículo que trafega à frente em pista seca e com boa visibilidade, qual regra de tempo mínima deve ser adotada por veículos leves?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Regra de 0,5 segundo."
+        },
+        {
+          "letra": "B",
+          "texto": "Regra de 1 segundo de intervalo."
+        },
+        {
+          "letra": "C",
+          "texto": "Regra dos 2 segundos (ou 4 segundos em condições adversas de chuva ou neblina)."
+        },
+        {
+          "letra": "D",
+          "texto": "Regra dos 10 segundos ininterruptos."
+        },
+        {
+          "letra": "E",
+          "texto": "Aproximar o veículo a menos de 1 metro para evitar que outros veículos realizem ultrapassagens."
+        }
+      ],
+      "respostaCorreta": "C",
+      "explicacao": "A regra dos dois segundos é a técnica de direção defensiva consagrada para tempo de reação e parada em pista seca. Havendo chuva, piso escorregadio ou carga pesada, dobra-se para 4 segundos.",
+      "status": "ativo",
+      "versao": 1,
+      "incompletaAlternativas": false,
+      "atualizadoEm": "2026-10-15T08:00:00Z"
+    },
+    {
+      "id": "q-car-03",
+      "codigo": "CAR-003",
+      "categoriaVeiculo": "Carro/Caminhonete",
+      "tema": "Inspeção e Pneus",
+      "enunciado": "Segundo as normas de segurança veicular e o Código de Trânsito Brasileiro, qual é a profundidade mínima dos sulcos da banda de rodagem dos pneus (indicador TWI) abaixo da qual o pneu é considerado irregular e perigoso?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "0,5 milímetros."
+        },
+        {
+          "letra": "B",
+          "texto": "1,6 milímetros."
+        },
+        {
+          "letra": "C",
+          "texto": "3,0 milímetros."
+        },
+        {
+          "letra": "D",
+          "texto": "4,5 milímetros."
+        },
+        {
+          "letra": "E",
+          "texto": "Não há limite estabelecido na legislação de trânsito."
+        }
+      ],
+      "respostaCorreta": "B",
+      "explicacao": "Pneus com profundidade de sulco inferior a 1,6 mm perdem a capacidade de escoamento de água, aumentando exponencialmente o risco de aquaplanagem e falha de frenagem.",
+      "status": "ativo",
+      "versao": 1,
+      "incompletaAlternativas": false,
+      "atualizadoEm": "2026-10-15T08:00:00Z"
+    },
+    {
+      "id": "q-car-04",
+      "codigo": "CAR-004",
+      "categoriaVeiculo": "Carro/Caminhonete",
+      "tema": "Pontos Cegos e Ultrapassagem",
+      "enunciado": "Ao planejar a ultrapassagem de um caminhão de grande porte em rodovia de pista simples, o condutor de carro/caminhonete deve:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Colar na traseira do caminhão para aproveitar o vácuo aerodinâmico antes de sair da faixa."
+        },
+        {
+          "letra": "B",
+          "texto": "Buzinar continuamente e forçar a passagem pelo acostamento da direita."
+        },
+        {
+          "letra": "C",
+          "texto": "Guardar distância do caminhão para ter visibilidade ampla da pista contrária, sinalizar com antecedência e ultrapassar em local permitido."
+        },
+        {
+          "letra": "D",
+          "texto": "Ultrapassar em curvas sinuosas caso o caminhão esteja em velocidade reduzida."
+        },
+        {
+          "letra": "E",
+          "texto": "Desligar os faróis durante a manobra para não ofuscar o retrovisor do caminhão."
+        }
+      ],
+      "respostaCorreta": "C",
+      "explicacao": "Ficar colado na traseira de veículos pesados anula a visibilidade da pista à frente. É necessário afastar-se, ampliar o campo visual, conferir os espelhos e sinalizar com antecedência.",
+      "status": "ativo",
+      "versao": 1,
+      "incompletaAlternativas": false,
+      "atualizadoEm": "2026-10-15T08:00:00Z"
+    },
+    {
+      "id": "q-car-05",
+      "codigo": "CAR-005",
+      "categoriaVeiculo": "Carro/Caminhonete",
+      "tema": "Segurança Passiva / Cinto e Encosto de Cabeça",
+      "enunciado": "O encosto de cabeça do banco do motorista e dos passageiros tem função essencial de proteção contra qual lesão típica de colisão traseira?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Fratura de fêmur e tíbia."
+        },
+        {
+          "letra": "B",
+          "texto": "Efeito chicote (movimento brusco de hiperextensão e hiperflexão da coluna cervical)."
+        },
+        {
+          "letra": "C",
+          "texto": "Trauma facial decorrente do acionamento do cinto abdominal."
+        },
+        {
+          "letra": "D",
+          "texto": "Lesão do tendão patelar."
+        },
+        {
+          "letra": "E",
+          "texto": "Luxação do ombro em desacelerações laterais."
+        }
+      ],
+      "respostaCorreta": "B",
+      "explicacao": "O encosto de cabeça deve ser ajustado com o topo na altura dos olhos ou no topo da cabeça para evitar o efeito chicote na coluna cervical em batidas traseiras.",
+      "status": "ativo",
+      "versao": 1,
+      "incompletaAlternativas": false,
+      "atualizadoEm": "2026-10-15T08:00:00Z"
+    },
+    {
+      "id": "q-car-06",
+      "codigo": "CAR-006",
+      "categoriaVeiculo": "Carro/Caminhonete",
+      "tema": "Condições Adversas / Neblina e Cerração",
+      "enunciado": "Em trecho com neblina densa, fumaça ou cerração na pista, qual a conduta defensiva preconizada?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Ligar a luz alta dos faróis para iluminar a neblina mais distante."
+        },
+        {
+          "letra": "B",
+          "texto": "Ligar o pisca-alerta com o veículo em movimento contínuo na faixa de rolamento."
+        },
+        {
+          "letra": "C",
+          "texto": "Utilizar farol baixo (ou farol de neblina), reduzir a velocidade e guiar-se pelas faixas de sinalização do solo."
+        },
+        {
+          "letra": "D",
+          "texto": "Parar o veículo na faixa de tráfego e aguardar a neblina se dissipar."
+        },
+        {
+          "letra": "E",
+          "texto": "Acelerar rapidamente para sair do trecho de neblina o mais depressa possível."
+        }
+      ],
+      "respostaCorreta": "C",
+      "explicacao": "O farol alto reflete nas gotículas em suspensão e ofusca o condutor. Usa-se farol baixo, velocidade reduzida, distância de segurança aumentada e não se para na pista.",
+      "status": "ativo",
+      "versao": 1,
+      "incompletaAlternativas": false,
+      "atualizadoEm": "2026-10-15T08:00:00Z"
+    },
+    {
+      "id": "q-car-07",
+      "codigo": "CAR-007",
+      "categoriaVeiculo": "Carro/Caminhonete",
+      "tema": "Fator Humano / Fadiga e Celular",
+      "enunciado": "Conforme estudos de segurança viária, digitar mensagens ou atender chamadas ao celular enquanto se dirige:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Não altera o tempo de reação se o motorista possuir mais de 10 anos de experiência."
+        },
+        {
+          "letra": "B",
+          "texto": "É seguro se realizado apenas em velocidades inferiores a 60 km/h."
+        },
+        {
+          "letra": "C",
+          "texto": "Multiplica significativamente o risco de colisão devido à distração cognitiva, visual e motora simultânea."
+        },
+        {
+          "letra": "D",
+          "texto": "É permitido nas rodovias estaduais e proibido nas federais."
+        },
+        {
+          "letra": "E",
+          "texto": "É compensado pelo uso de freios ABS modernos."
+        }
+      ],
+      "respostaCorreta": "C",
+      "explicacao": "O uso do celular desvia o olhar, a mente e as mãos da direção, gerando cegueira por desatenção comparável ou superior ao estado de embriaguez moderada.",
+      "status": "ativo",
+      "versao": 1,
+      "incompletaAlternativas": false,
+      "atualizadoEm": "2026-10-15T08:00:00Z"
+    },
+    {
+      "id": "q-car-08",
+      "codigo": "CAR-008",
+      "categoriaVeiculo": "Carro/Caminhonete",
+      "tema": "Mecânica Básica e Freios ABS",
+      "enunciado": "Em frenagens de emergência em veículos equipados com freios ABS (Anti-lock Braking System), o motorista deve:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Bombear o pedal de freio repetidamente para não deixar as rodas travarem."
+        },
+        {
+          "letra": "B",
+          "texto": "Pressionar o pedal de freio com força máxima e mantê-lo pressionado, ignorando a vibração normal do sistema."
+        },
+        {
+          "letra": "C",
+          "texto": "Puxar o freio de mão junto com o pedal para diminuir o curso do veículo."
+        },
+        {
+          "letra": "D",
+          "texto": "Colocar o câmbio em ponto morto antes de aplicar qualquer pressão no freio."
+        },
+        {
+          "letra": "E",
+          "texto": "Aliviar a pressão no freio assim que sentir a primeira trepidação no pedal."
+        }
+      ],
+      "respostaCorreta": "B",
+      "explicacao": "O sistema ABS atua automaticamente evitando o travamento das rodas e permitindo manobrar durante a frenagem. O pedal vibra indicando que o sistema está em ação, devendo ser mantido pressionado firmemente.",
+      "status": "ativo",
+      "versao": 1,
+      "incompletaAlternativas": false,
+      "atualizadoEm": "2026-10-15T08:00:00Z"
+    },
+    {
+      "id": "q-moto-01",
+      "codigo": "MOT-001",
+      "categoriaVeiculo": "Motocicleta",
+      "tema": "Técnica de Frenagem de Motocicletas",
+      "enunciado": "Qual é a distribuição ideal recomendada de força de frenagem em motocicletas em linha reta e piso seco para garantir desaceleração eficiente sem derrapagem?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "100% no freio traseiro e 0% no freio dianteiro."
+        },
+        {
+          "letra": "B",
+          "texto": "Aproximadamente 70% da força no freio dianteiro e 30% no freio traseiro."
+        },
+        {
+          "letra": "C",
+          "texto": "90% no freio traseiro e 10% no dianteiro."
+        },
+        {
+          "letra": "D",
+          "texto": "Somente uso do freio motor, sem pressionar as manetes."
+        },
+        {
+          "letra": "E",
+          "texto": "50% freio traseiro e pisar com as botas no asfalto."
+        }
+      ],
+      "respostaCorreta": "B",
+      "explicacao": "Durante a frenagem, ocorre transferência de massa para a dianteira da moto. Por isso, a roda dianteira tem maior aderência e responde por cerca de 70% da capacidade total de parada.",
+      "status": "ativo",
+      "versao": 1,
+      "incompletaAlternativas": false,
+      "atualizadoEm": "2026-10-15T08:00:00Z"
+    },
+    {
+      "id": "q-moto-02",
+      "codigo": "MOT-002",
+      "categoriaVeiculo": "Motocicleta",
+      "tema": "Equipamentos de Proteção / Capacete",
+      "enunciado": "Segundo a Resolução do CONTRAN referente ao uso de capacete por motociclistas e passageiros, qual das alternativas descreve a condição correta e obrigatória?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "A viseira pode ser substituída por óculos de sol comuns ou de grau sem proteção lateral."
+        },
+        {
+          "letra": "B",
+          "texto": "A cinta jugular pode ficar frouxa ou solta para maior conforto térmico."
+        },
+        {
+          "letra": "C",
+          "texto": "O capacete deve possuir selo do INMETRO, faixas retrorrefletivas e a viseira (ou óculos de proteção específico) deve estar abaixada durante o deslocamento."
+        },
+        {
+          "letra": "D",
+          "texto": "Capacetes sem queixeira e sem viseira são permitidos em rodovias federais."
+        },
+        {
+          "letra": "E",
+          "texto": "Capacete que sofreu forte impacto em colisão pode continuar sendo utilizado se a pintura estiver intacta."
+        }
+      ],
+      "respostaCorreta": "C",
+      "explicacao": "O capacete regulamentar requer certificação INMETRO, adesivos retrorrefletivos e uso com viseira fechada e jugular bem afivelada sob o maxilar.",
+      "status": "ativo",
+      "versao": 1,
+      "incompletaAlternativas": false,
+      "atualizadoEm": "2026-10-15T08:00:00Z"
+    },
+    {
+      "id": "q-moto-03",
+      "codigo": "MOT-003",
+      "categoriaVeiculo": "Motocicleta",
+      "tema": "Posicionamento em Pista e Pontos Cegos",
+      "enunciado": "Ao trafegar em vias urbanas de fluxo intenso, como o motociclista deve se posicionar para garantir sua segurança e visibilidade?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Trafegar colado nas laterais cegas de ônibus e caminhões."
+        },
+        {
+          "letra": "B",
+          "texto": "Ocupar o centro de sua faixa de trânsito onde os motoristas à frente consigam visualizá-lo pelo retrovisor central, mantendo distância segura."
+        },
+        {
+          "letra": "C",
+          "texto": "Costurar continuamente entre os carros sem sinalizar para agilizar a entrega."
+        },
+        {
+          "letra": "D",
+          "texto": "Trafegar prioritariamente sobre a linha de divisão entre as faixas em alta velocidade."
+        },
+        {
+          "letra": "E",
+          "texto": "Utilizar calçadas e ciclovias em horários de pico."
+        }
+      ],
+      "respostaCorreta": "B",
+      "explicacao": "Ficar visível nos retrovisores de quem vai à frente e manter distância de segurança é a primeira regra de sobrevivência do motociclista defensivo.",
+      "status": "ativo",
+      "versao": 1,
+      "incompletaAlternativas": false,
+      "atualizadoEm": "2026-10-15T08:00:00Z"
+    },
+    {
+      "id": "q-moto-04",
+      "codigo": "MOT-004",
+      "categoriaVeiculo": "Motocicleta",
+      "tema": "Curvas e Técnica de Contra-Esterço",
+      "enunciado": "Ao abordar uma curva com a motocicleta em velocidade de cruzeiro, qual a sequência de procedimentos correta?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Frear forte com o freio dianteiro no ápice da curva com a moto totalmente inclinada."
+        },
+        {
+          "letra": "B",
+          "texto": "Reduzir a velocidade antes da entrada da curva, posicionar o corpo e manter aceleração suave e constante durante o contorno."
+        },
+        {
+          "letra": "C",
+          "texto": "Entrar na curva acelerando ao máximo e frear apenas se a moto sair da pista."
+        },
+        {
+          "letra": "D",
+          "texto": "Desengatar a marcha e contornar a curva em ponto morto."
+        },
+        {
+          "letra": "E",
+          "texto": "Inclinar a moto para o lado contrário ao sentido da curva."
+        }
+      ],
+      "respostaCorreta": "B",
+      "explicacao": "A desaceleração e ajuste de marcha devem ocorrer antes da entrada da curva, quando a motocicleta ainda está reta. Dentro da curva, aceleração suave estabiliza a suspensão e tração.",
+      "status": "ativo",
+      "versao": 1,
+      "incompletaAlternativas": false,
+      "atualizadoEm": "2026-10-15T08:00:00Z"
+    },
+    {
+      "id": "q-moto-05",
+      "codigo": "MOT-005",
+      "categoriaVeiculo": "Motocicleta",
+      "tema": "Piso Molhado e Óleo no Asfalto",
+      "enunciado": "Logo no início de uma chuva fraca após período de estiagem, o asfalto torna-se extremamente escorregadio porque:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "A água da chuva evapora instantaneamente gerando vácuo."
+        },
+        {
+          "letra": "B",
+          "texto": "A água inicial mistura-se com a poeira, resíduos de combustível e óleo acumulados na pista, formando uma película altamente lubrificante."
+        },
+        {
+          "letra": "C",
+          "texto": "A calibragem dos pneus se eleva repentinamente com a umidade."
+        },
+        {
+          "letra": "D",
+          "texto": "Os freios a disco perdem a pressão hidráulica com gotas de água."
+        },
+        {
+          "letra": "E",
+          "texto": "As faixas pintadas aumentam a aderência dos pneus da moto."
+        }
+      ],
+      "respostaCorreta": "B",
+      "explicacao": "Os primeiros 15 minutos de chuva são os mais perigosos para motocicletas, pois a mistura de água com óleo e fuligem cria uma camada semelhante a sabão.",
+      "status": "ativo",
+      "versao": 1,
+      "incompletaAlternativas": false,
+      "atualizadoEm": "2026-10-15T08:00:00Z"
+    },
+    {
+      "id": "q-moto-06",
+      "codigo": "MOT-006",
+      "categoriaVeiculo": "Motocicleta",
+      "tema": "Manutenção Preventiva / Corrente e Pneus",
+      "enunciado": "A folga e lubrificação da corrente de transmissão secundária da motocicleta devem ser verificadas com qual frequência média nas frotas operacionais?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Apenas uma vez ao ano nas revisões do fabricante."
+        },
+        {
+          "letra": "B",
+          "texto": "Somente se a corrente arrebentar em trânsito."
+        },
+        {
+          "letra": "C",
+          "texto": "Semanalmente ou a cada 500-1000 km (e sempre após chuvas intensas), mantendo a folga preconizada no manual (normalmente entre 2 e 3 cm)."
+        },
+        {
+          "letra": "D",
+          "texto": "A corrente deve permanecer o mais esticada possível sem folga alguma."
+        },
+        {
+          "letra": "E",
+          "texto": "A corrente não requer óleo nem regulagem por ser blindada."
+        }
+      ],
+      "respostaCorreta": "C",
+      "explicacao": "Corrente frouxa pode descarrilar e travar a roda traseira, causando queda grave. Corrente muito esticada danifica o eixo do câmbio e os rolamentos.",
+      "status": "ativo",
+      "versao": 1,
+      "incompletaAlternativas": false,
+      "atualizadoEm": "2026-10-15T08:00:00Z"
+    }
+  ],
+  "tentativasTeoricas": [],
+  "avaliacoesPraticas": [],
+  "criteriosAvaliacao": [
+    {
+      "id": "crit-01",
+      "categoriaVeiculo": "Geral",
+      "titulo": "Inspeção Pré-Operacional do Veículo (Checklist 360°)",
+      "descricao": "Verificação visual dos pneus, níveis de fluidos, iluminação, freios e integridade geral.",
+      "ordem": 1
+    },
+    {
+      "id": "crit-02",
+      "categoriaVeiculo": "Geral",
+      "titulo": "Uso Correto dos Equipamentos de Proteção / Cinto / Capacete",
+      "descricao": "Ajuste e uso adequado dos EPIs exigidos para a atividade e condução do veículo.",
+      "ordem": 2
+    },
+    {
+      "id": "crit-03",
+      "categoriaVeiculo": "Geral",
+      "titulo": "Ergonomia e Ajustes Iniciais (Bancos, Espelhos, Postura)",
+      "descricao": "Regulagem correta dos espelhos retrovisores, minimização de pontos cegos e postura ao volante/guidão.",
+      "ordem": 3
+    },
+    {
+      "id": "crit-04",
+      "categoriaVeiculo": "Geral",
+      "titulo": "Respeito à Sinalização e Limites de Velocidade",
+      "descricao": "Cumprimento estrito da sinalização horizontal, vertical, semafórica e velocidade compatível.",
+      "ordem": 4
+    },
+    {
+      "id": "crit-05",
+      "categoriaVeiculo": "Geral",
+      "titulo": "Distância Segura de Seguimento e Reação",
+      "descricao": "Manutenção da regra dos 2 segundos (ou 3-4s em pista molhada) em relação ao veículo à frente.",
+      "ordem": 5
+    },
+    {
+      "id": "crit-06",
+      "categoriaVeiculo": "Geral",
+      "titulo": "Atenção aos Pontos Cegos e Visão Periférica",
+      "descricao": "Varredura visual ativa constante, uso de setas com antecedência e checagem prévia nas conversões.",
+      "ordem": 6
+    },
+    {
+      "id": "crit-07",
+      "categoriaVeiculo": "Carro/Caminhonete",
+      "titulo": "Controle de Frenagem e Condução Suave",
+      "descricao": "Frenagens progressivas sem trancos, controle de embreagem e estabilidade em curvas.",
+      "ordem": 7
+    },
+    {
+      "id": "crit-08",
+      "categoriaVeiculo": "Carro/Caminhonete",
+      "titulo": "Manobras em Marcha à Ré e Estacionamento Seguro",
+      "descricao": "Realização de baliza ou vaga a 90° com segurança, sem aceleração excessiva e com observação total.",
+      "ordem": 8
+    },
+    {
+      "id": "crit-09",
+      "categoriaVeiculo": "Motocicleta",
+      "titulo": "Posicionamento em Pista e Visibilidade da Motocicleta",
+      "descricao": "Condução no centro da faixa sem trafegar em pontos cegos de caminhões ou automóveis.",
+      "ordem": 9
+    },
+    {
+      "id": "crit-10",
+      "categoriaVeiculo": "Motocicleta",
+      "titulo": "Equilíbrio, Frenagem Combinada e Curvas em Baixa Velocidade",
+      "descricao": "Uso coordenado de freio dianteiro (70%) e traseiro (30%), apoio dos pés e postura nos joelhos.",
+      "ordem": 10
+    },
+    {
+      "id": "crit-11",
+      "categoriaVeiculo": "Geral",
+      "titulo": "Comportamento Defensivo e Previsão de Risco",
+      "descricao": "Capacidade de antecipar pedestres, animais, cruzamentos sem visibilidade e condutas imprudentes de terceiros.",
+      "ordem": 11
+    },
+    {
+      "id": "crit-12",
+      "categoriaVeiculo": "Geral",
+      "titulo": "Encerramento Seguro e Desligamento",
+      "descricao": "Parada em local autorizado, aplicação do freio de estacionamento, desligamento e trava.",
+      "ordem": 12
+    }
+  ],
+  "instrutores": [
+    {
+      "id": "inst-01",
+      "nome": "Paulo Roberto da Silva",
+      "matricula": "INS-8842",
+      "credencial": "DETRAN-MA/84920-A/B",
+      "base": "Base São Luís",
+      "email": "paulo.silva@bomcondutor.corp",
+      "telefone": "(98) 98842-1020",
+      "ativo": true
+    },
+    {
+      "id": "inst-02",
+      "nome": "Carlos Eduardo Mendes",
+      "matricula": "INS-9214",
+      "credencial": "DETRAN-MA/51029-A/B/D",
+      "base": "Base Bacabal",
+      "email": "carlos.mendes@bomcondutor.corp",
+      "telefone": "(99) 98411-9922",
+      "ativo": true
+    },
+    {
+      "id": "inst-03",
+      "nome": "Renata Albuquerque",
+      "matricula": "INS-7731",
+      "credencial": "DETRAN-MA/33910-A/B",
+      "base": "Base Imperatriz",
+      "email": "renata.albuquerque@bomcondutor.corp",
+      "telefone": "(99) 99120-4455",
+      "ativo": true
+    }
+  ],
+  "importacoes": [],
+  "configuracoes": {
+    "notaMinimaTeorica": 70,
+    "quantidadeQuestoesTeorica": 15,
+    "tempoMaximoMinutos": 40,
+    "maxTentativasTeorica": 2,
+    "ordemAleatoriaQuestoes": true,
+    "ordemAleatoriaAlternativas": true,
+    "permitirRevisao": true,
+    "notaMinimaPratica": 75,
+    "permitirPraticaSemAprovacaoTeorica": false,
+    "modoHomologacao": true,
+    "mensagemAvisoOficial": "Ambiente corporativo de reavaliação. As provas teóricas utilizam questões de direção defensiva e legislação de trânsito específicas por veículo."
+  },
+  "logsAuditoria": [
+    {
+      "id": "log-init",
+      "dataHora": "2026-10-15T13:46:44.974Z",
+      "usuario": "Sistema",
+      "perfil": "Sistema",
+      "acao": "Inicialização da base de dados",
+      "entidade": "database",
+      "detalhes": "Base inicial carregada com colaboradores de teste, instrutores e critérios de avaliação."
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Escola do Bom Condutor",
+  "description": "Plataforma corporativa de gestão, capacitação e reavaliação teórica e prática de direção segura para condutores e frotas operacionais.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
